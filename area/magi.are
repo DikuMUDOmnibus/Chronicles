@@ -1,0 +1,523 @@
+#AREA        The Tower of Sorcery~
+
+
+
+#VERSION     1
+#AUTHOR      Orion~
+#DERIVATIVES ~
+
+#RANGES
+10 100 0 105
+$
+
+#NAMEFORMAT &r&Y&g[ &G&zGuild of Magi&Y&g, &G&w<%room_name%> &Y&g]~
+
+#DESCFORMAT &r&Y&g~
+
+#RESETMSG &r&G&C&pA purple orb flies forth from the roiling cloud and thunders through the Tower of Sorcery.~
+
+#FLAGS
+48
+
+#ECONOMY 0 101250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#20000
+shop keeper woman mystiqua~
+Mystiqua~
+A woman draped in flowing black robes is here, managing the shop.
+~
+~
+67108867 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 20 13 25 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#20099
+sage man teacher~
+The Sage~
+A pensive sage mulls over new sorcery.
+~
+~
+67109891 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#20000
+fires blue mystical flame~
+a blue, mystical flame~
+Numerous blue, mystical fires litter the ground.~
+~
+34 -2147483648 0
+0 0 0 0
+1 0 0
+#20001
+podium conclave ornate oak gold~
+the Conclave Podium~
+An ornate podium, made of the finest oak and trimmed in gold, sits here.~
+~
+12 -2147483648 0
+0 0 32 1
+1 0 0
+#20002
+white ivory~
+one of the white ivory seats~
+Seats crafted of the purest white ivory stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20003
+grey stone~
+one of the grey stone seats~
+Seats formed from solid, grey stone stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20004
+black obsidian~
+one of the black obsidian seats~
+Seats carved from the blackest obsidian stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20005
+ring magi golden~
+A Ring of the Magi~
+A golden ring floats seemlessly here, awaiting its owner.~
+~
+15 524608 3
+750 0 0 15
+1 12000 1200
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Magi
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Magi
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20006
+dinrah staff silver blue orb~
+A Staff of Dinrah~
+A silver staff, with a glowing blue orb in the pinnacle, floats
+
+here.~
+~
+9 524545 16385
+7 7 0 0
+1 20000 2000
+A
+13 20
+A
+12 30
+A
+14 10
+A
+18 4
+A
+19 4
+A
+3 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Magi
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Magi
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20007
+fountain marble gold~
+The Magi Guild Fountain~
+A fountain made of solid marble and trimmed in gold spews forth clear water.~
+~
+25 -2147483648 0
+9999 0 0 0
+1 0 0
+#20008
+lantern magi silver~
+A Silver Lantern~
+A lantern of the Guild of Magi lies here.~
+~
+1 524544&65536 1
+10 10 -1 0
+1 16125 1612
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Magi
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Magi
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20099
+podium gold stone obsidian tome communication~
+The Tome of Communication~
+A podium crafted of gold, stone and obsidian sits here, a tome lying upon it.~
+~
+12 -2147483648 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#20000
+Outside the Tower of Sorcery~
+Green foliage skirts the edge of a cobblestone path. The path leads to,
+and from, a flight of stairs. The top of the stairs end at a large golden
+door. The tower itself is four stories in height. Swirls of purple clouds
+float loomingly above the tower, black lightning spewing forth from the
+clouds' sickening body.  
+~
+0 36701188 1
+D0
+~
+~
+0 -1 21037
+D2
+~
+~
+0 -1 20001
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Magi
+else
+mptransfer $n 21037
+endif
+~
+|
+S
+#20001
+Main Hall of the Tower of Sorcery~
+Enormous arches support the great hall of the tower. The walls are crafted
+of smooth obsidian and covered with hoards of sorcerous runes. The walls
+split the tiniest of reflections into an array of shimmering images. A
+circular rune flares brightly, from the center of the room. A marble
+fountain encircles the Rune of Power within its body, as water spews forth
+from it. Hallways extend to the east, southeast, southwest, and west,
+while above lies a large chambered area.
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20000
+D1
+~
+~
+0 -1 20002
+D3
+~
+~
+0 -1 20005
+D4
+~
+~
+0 -1 20006
+D8
+~
+~
+0 -1 20003
+D9
+~
+~
+0 -1 20004
+S
+#20002
+Mystiqua's Ensorcelled Components~
+The shop is small and is coated in the unsavory odor of mystified chemicals.
+A long table lies near the northern wall, with the supplies of a Master
+Scribe lying upon it. A rectangular wooden counter lies within the exact
+center of the room, both a shop necessity and a focus of mystical power. A
+small corridor lies to the west. 
+~
+0 36701196 0
+D3
+~
+~
+0 -1 20001
+S
+#20003
+The Chamber of Learning~
+The chamber is full of a mystical heat, given off by the numerous magicals
+fires within the room. An altar in the center of the room channels the
+power of the Gods of Magic to all within the room. The eastern wall is
+lined with statues, each made of different materials and primal elements. A
+corridor lies to the northwest. 
+~
+0 36701196 0
+D7
+~
+~
+0 -1 20001
+S
+#20004
+A Rune Covered Chamber~
+Runes of pretection and preservation have been meticulously arranged on
+the walls of the chamber. Various potions, scrolls, and staves litter the
+chamber. The mystical power within the room is thick, protecting all items
+within the room. A corridor lies to the northeast. 
+~
+0 37241868 0
+D6
+~
+~
+0 -1 20001
+S
+#20005
+The Library of the Magi~
+Rows upon rows of bookcases fill the room. The domed chamber is illuminated
+by a cluster of Dinrah's Orbs. In the exact center of the room is a podium
+made of gold, stone and obsidian, upon which lies a communication tome. A
+corridor lies to the east.
+~
+0 36701196 0
+D1
+~
+~
+0 -1 20001
+S
+#20006
+A Stone Stairway~
+The spiral stairs ascend into the far reaches of the tower loft, and
+downwards to the main hall. The stone steps are extremely steep, each grey
+step being approximately two feet in height. The walls of the stairwell are
+barren.  
+~
+0 36701196 0
+D4
+~
+~
+0 -1 20007
+D5
+~
+~
+0 -1 20001
+S
+#20007
+A Stone Stairway~
+The flight of stairs spirals downward to the main hall far below, and
+upwards to the loft. The stone steps are extremely steep, each grey step
+being approximately two feet in height. The walls of the stairwell are
+barren. 
+~
+0 36701196 0
+D4
+~
+~
+0 -1 20008
+D5
+~
+~
+0 -1 20006
+S
+#20008
+The Court of the Conclave~
+The Court of the Conclave is an enormous hall. Seats made of white ivory,
+grey stone, or black obsidian have been situated around a single podium
+which lies in the center of the hall. Aisles lead in one of three
+directions: north, southeast, or southwest. An alcove cloaked in shadows
+lies below.  
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20009
+D5
+~
+~
+0 -1 20007
+D8
+~
+~
+0 -1 20010
+D9
+~
+~
+0 -1 20011
+S
+#20009
+The Court of the Red Robe~
+An enormous hall, plain in color, forms the Court of the Red Robe. Seats
+fill the hall, encircling a slate podium within the center of the hall,
+each made of plain grey stone. A lone aisle lies to the south. 
+~
+0 36701196 0
+D2
+~
+~
+0 -1 20008
+S
+#20010
+The Court of the Black Robe~
+An enormous hall, black in color, forms the Court of the Black Robe. Seats
+fill the hall, encircling an onyx podium lying in the hall's center, each
+made of the darkest obsidian. A sole aisle lies to the northwest.
+~
+0 36701196 0
+D7
+~
+~
+0 -1 20008
+S
+#20011
+The Court of the White Robe~
+An enormous hall, ivory in color, forms the Court of the White Robe. Seats
+fill the hall, encircling a brilliant silver podium which sits at the
+center of the hall, each crafted shining white ivory. A solitary aisle lies
+to the northeast. 
+~
+0 36701196 0
+D6
+~
+~
+0 -1 20008
+S
+#20012
+Floating in a void~
+~
+0 4 1
+S
+#20013
+Floating in a void~
+~
+0 4 1
+S
+#20014
+Floating in a void~
+~
+0 4 1
+S
+#20015
+Floating in a void~
+~
+0 4 1
+S
+#20016
+Floating in a void~
+~
+0 4 1
+S
+#20017
+Floating in a void~
+~
+0 4 1
+S
+#20018
+Floating in a void~
+~
+0 4 1
+S
+#20019
+Floating in a void~
+~
+0 4 1
+S
+#20099
+Floating in a void~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+M 1 20099 1 20003
+O 1 20000 1 20003
+O 1 20099 1 20005
+O 1 20001 1 20008
+O 1 20002 1 20008
+O 1 20003 1 20008
+O 1 20004 1 20008
+O 1 20003 1 20009
+O 1 20004 1 20010
+O 1 20002 1 20011
+O 1 20007 1 20001
+M 1 20000 1 20002
+G 1 20008 1
+G 1 20006 1
+G 1 20005 1
+S
+
+
+#SHOPS
+ 20000    0  0  0  0  0   120  90         0 23    ; Mystiqua
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

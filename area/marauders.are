@@ -1,0 +1,574 @@
+#AREA        The Old Elder Mansion~
+
+
+
+#VERSION     1
+#AUTHOR      Orion~
+#DERIVATIVES ~
+
+#RANGES
+10 100 0 105
+$
+
+#NAMEFORMAT &r&G&z[ &G&bGuild of Marauders&G&z, &G&W<%room_name%> &G&z]~
+
+#DESCFORMAT &r&Y&z~
+
+#FLAGS
+48
+
+#ECONOMY 0 101250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#20300
+ignith shopkeeper lich undead man~
+Ignith~
+A lich stands here, his dark eyes glowing, awaiting a customer.
+~
+~
+67108867 4194472 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 20 13 13 13
+0 0 0 0 0
+36 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#20398
+dark trainer paladin vampire teacher~
+The Dark Paladin~
+A dark paladin is here, his fangs glinting in his menacing grin.
+~
+~
+67109891 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#20399
+virgin pristine white weeping crying scared~
+The Pristine Virgin~
+A virgin dressed in white waits here, scared and weeping, awaiting her fate.
+~
+~
+131139 0 0 C
+1 0 0 1d1+249 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+1 0 0 0 3156992 0 0 0
+#0
+
+
+#OBJECTS
+#20300
+fountain glass~
+short The Marauders Guild Glass Fountain~
+A fountain of solid glass sprays forth crystal waters.~
+~
+25 -2147483648 0
+0 0 0 0
+1 0 0
+#20301
+fountain podium stone~
+the Fountain Podium~
+The stone fountain surrounds the podium and is full of fresh water.~
+~
+12 -2147483648 0
+0 0 32 1
+1 0 0
+#20302
+white ivory~
+one of the white ivory seats~
+Seats crafted of the purest white ivory stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20303
+grey stone~
+one of the grey stone seats~
+Seats formed from solid, grey stone stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20304
+black obsidian~
+one of the black obsidian seats~
+Seats carved from the blackest obsidian stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20305
+ring marauders diamond~
+A Ring of the Marauders~
+A diamond ring glitters brightly here, awaiting its owner.~
+~
+15 524608 3
+750 0 0 15
+1 12000 1200
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Marauders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Marauders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+|
+#20306
+earring runic golden darkness~
+A Runic Earring of Darkness~
+A golden earring, in the shape of the rune of darkness lies here.~
+~
+9 524545 65537
+7 7 0 0
+1 20000 2000
+A
+13 10
+A
+12 15
+A
+18 2
+A
+19 2
+A
+4 3
+A
+14 5
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Marauders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Marauders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+|
+#20307
+lantern marauders iron~
+An Iron Lantern~
+A lantern of the Guild of Marauders lies here.~
+~
+1 524544&65536 1
+10 10 -1 0
+1 16125 1612
+A
+13 10
+A
+12 25
+A
+18 5
+A
+19 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Marauders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Marauders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20399
+obsidian podium tome communication blood~
+The Tome of Desecration~
+An obsidian podium sits here, blood flowing through the channels, a tome upon it.~
+~
+12 -2147483648 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#20300
+The Den~
+The den is a set of catacombs lying beneath the old Elder Mansion. The walls
+of the catacombs have been smoothed, and polished. The deep grey stone
+sparkles from its polished exterior. A wooden staircase leads up, while a
+steel rope dangles in the center of the room. A set of five halls lead to
+the northwest, northeast, east, south, and west.
+~
+0 36701196 0
+D1
+~
+~
+0 -1 20303
+D2
+~
+~
+0 -1 20304
+D3
+~
+~
+0 -1 20305
+D4
+~
+~
+0 -1 20312
+D5
+~
+~
+65664 -1 20306
+D6
+~
+~
+0 -1 20302
+D7
+~
+~
+0 -1 20301
+S
+#20301
+The Pillaged Hoard~
+The enormous chamber is littered with items, some bright, others dull, some
+new, others incredibly old. Runes of preservation are engraved on each
+wall, protecting the items within their sphere. A small corridor leads to
+southeast. 
+~
+0 37225484 0
+D8
+~
+~
+0 -1 20300
+S
+#20302
+The Bloody Cell~
+The cell is dimly lit and filled with flickering shadows. Thick, dark blood
+stains are splattered over the walls and the floor. The sound of weeping
+and sniffling fills the air, echoing loudly off each wall. The skitter of
+chains on stone flutters about the cell. A short hall leads to the
+southwest. 
+~
+0 36700172 0
+D9
+~
+~
+0 -1 20300
+> death_prog 100~
+if isnpc($n)
+if name($n) == virgin pristine white weeping crying scared
+mpecho _red As the life flows from the virgin, her body dusts and blows away.
+mpecho _red Another virgin forms in the chains of the cell, filled with fear.
+mppurge
+mpmload 20399
+endif
+endif
+~
+|
+S
+#20303
+The Chamber of Discipline~
+Chains, whips, and blades line the walls of the chamber. The rune of death
+has been 'painted' on the floor, in blood. The room smells of charred and
+burned flesh, hair, and blood. The runes of war, animosity, destruction and
+chaos are painted on each wall of the chamber, each in a different color. A
+short hall leads to the west. 
+~
+0 36701196 0
+D3
+~
+~
+0 -1 20300
+S
+#20304
+A Stone Grotto~
+Runes of silence, privacy and secrecy cover the walls; Each stenciled in
+dried blood. The walls are carved from solid rock, and highly polished. A
+red carpet leads to and from an obsidian podium. Grooves channeled into the
+obsidian allow drops of free-flowing blood to rush through them. Atop the
+podium lies a tome, marked with the rune of communication. A short hall
+leads to the north.
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20300
+S
+#20305
+The Powerful Pillager~
+The chamber echos the moans of those long dead. A wooden counter is set
+against the western wall, lined with talismans of various types. A
+fireplace lies in the northern portion of the chamber, heating numerous
+viles. Some jars of various liquids lie on the floor, next to the fire. A
+short hall leads to the east. 
+~
+0 36701196 0
+D1
+~
+~
+0 -1 20300
+S
+#20306
+Portal to Sharad'Laha~
+A shimmering, blue gateway lies in the floor of the chamber. The chamber is
+circular in shape. The walls are composed of an unknown form of black
+stone. A glowing green liquid flows down the walls, in four channeled
+grooves, into the cardinal points of the portal. A steel rope dangles in
+the center of the room. 
+~
+0 36701196 0
+D4
+~
+~
+65664 -1 20300
+D10
+~
+portal~
+526344 -1 20307
+> entry_prog 100~
+mea $n _blu The portal shimmers as you enter the room.
+mer $n _blu The portal shimmers as $n enters the room.
+~
+|
+S
+#20307
+The Forested Path~
+The boundaries of reality are breached. Lush, deep-green fauna fills the
+area, fading from view less than two-hundred feet away. The sounds of birds
+and squirrels fill the air. A large shadow circles over the area every few
+moments, cast by an enormous, red dragon flying overhead. 
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20308
+D10
+~
+portal~
+526344 -1 20306
+> entry_prog 100~
+mea $n _blu The portal shimmers as you enter the room.
+mer $n _blu The portal shimmers as $n enters the room.
+~
+|
+S
+#20308
+The Circle of Sharad'Laha~
+A large valley is formed by a break in the forest. The center of the valley
+is taken up by a large fountain. The center of the fountain is a large
+stone podium. The surrounding valley is formed into seating, surrounding
+the podium. Three small pathways lead to and from the north, southeast and
+southwest, while a large path leads to the south.
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20310
+D2
+~
+~
+0 -1 20307
+D8
+~
+~
+0 -1 20309
+D9
+~
+~
+0 -1 20311
+S
+#20309
+Swirling Chaos~
+Clouds swirl overhead, filling the immediate area with a dreary darkness.
+Random lightning and thunder fill the air, the taste of electricity flowing
+throughout. A small podium stands within the center of a circle of seats;
+Two tall, silver posts stand on either side of the podium, energy traveling
+between them. A small pathway leads to and from a thick fog.
+~
+0 36701196 0
+D7
+~
+~
+0 -1 20308
+S
+#20310
+Unbiased Pain~
+Fire erupts from the ground at various times. Black lightning flows forth
+from the clouds. The smell of burning Oak fills the area, and the sound of
+moans of pain and screams of pleasure fill the air. A high-pitched shriek
+erupts from the sky every five and a half minutes. A small podium sits
+within a circle of seats. A small pathway leads to and from a thick fog, to
+the south.
+~
+0 36701196 0
+D2
+~
+~
+0 -1 20308
+S
+#20311
+Ordered Insanity~
+The ground does not exist. Pathways run up and down rows of seats; Each seat
+floats upon nothingness, unmoving. The chairs encircle a podium that floats
+in front of each row of seats. Every few moments a blue orb flies from the
+abyss, stops in the exact center of the room, then continues straight up. A
+small pathway leads to and from a thick mist, to the northeast. 
+~
+0 36701196 0
+D6
+~
+~
+0 -1 20308
+S
+#20312
+Foyer of the Mansion~
+The main portion of the mansion is utterly ruined. The decorations of the
+mansion are aged and tattered, while the furniture lies strewn about in
+pieces. A single decoration remains in perfect condition: The beheaded
+statue of DarkHaven's Founder. The statue's head has been placed squarely
+between its feet. A flight of stone stairs lead to and from complete
+darkness, and a door leads to and from the south.
+~
+0 36701196 0
+D2
+~
+'rusted door'~
+3 -1 20313
+D5
+~
+~
+0 -1 20300
+S
+#20313
+Outside the Mansion~
+An old, partially destroyed, mansion lies to the north. The shrubs outside
+the mansion are over-grown; The grass around the mansion is about two feet
+tall. Hanging on the door is a sign that is in part coated in blood. A
+stone pathway leads to the front door and the main gate.  
+~
+0 36701196 0
+D0
+~
+'rusted door'~
+3 -1 20312
+D2
+~
+'rusted gate'~
+3 -1 21023
+E
+sign~
+@================================================@
+|                     NOTICE                     |
+|                                                |
+| Beware, this property is condemned. Those who  |
+| chance to enter do so at their own risk!       |
+|                                                |
+|                                                |
+@================================================@
+|    - The New Darkhaven Town Council            |
+@================================================@
+~
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Marauders
+else
+mptransfer $n 21023
+endif
+~
+|
+S
+#20399
+Floating in a void~
+~
+0 36701196 0
+S
+#0
+
+
+#RESETS
+M 1 20399 1 20302
+M 1 20398 1 20303
+D 0 20312 2 1
+O 1 20300 1 20300
+O 1 20301 1 20308
+O 1 20302 1 20308
+O 1 20303 1 20308
+O 1 20304 1 20308
+O 1 20304 1 20309
+O 1 20302 1 20311
+O 1 20303 1 20310
+O 1 20399 1 20304
+D 0 21023 0 1
+D 0 20313 0 1
+D 0 20313 2 1
+M 1 20300 1 20305
+G 1 20307 1
+G 1 20306 1
+G 1 20305 1
+S
+
+
+#SHOPS
+ 20300    0  0  0  0  0   120  90         0 23    ; Ignith
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

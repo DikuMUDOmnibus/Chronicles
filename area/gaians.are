@@ -1,0 +1,562 @@
+#AREA        Gaia's Hill~
+
+
+
+#VERSION     1
+#AUTHOR      Orion~
+#DERIVATIVES ~
+
+#RANGES
+10 100 0 105
+$
+
+#NAMEFORMAT &r&G&O[ &G&YThe Guild of Gaians&G&O, &G&w<%room_name%> &G&O]~
+
+#DESCFORMAT &r&G&O~
+
+#RESETMSG &r&G&C&YA tiny golden cloud flutters by.~
+
+#FLAGS
+48
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#20400
+shop keeper woman lythia~
+Lythia~
+A woman in a grass colored dress trimmed in cherry is here, awaiting customers.
+~
+~
+67108867 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 20 13 25 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#20499
+tracker man teacher~
+The Tracker~
+A jovial man stands here, playing with a new trap.
+~
+~
+67109891 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 5 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#20400
+fire yellow mystical flame~
+the yellow, mystical flame~
+A single yellow fire sits in the center of the hill.~
+~
+34 -2147483648 0
+0 0 0 0
+1 0 0
+#20401
+podium clouds cherry oak~
+the Clouds Podium~
+A plain podium, formed from a stunted cherry oak, sits here.~
+~
+12 -2147483648 0
+0 0 32 1
+1 0 0
+#20402
+white ivory~
+one of the white ivory seats~
+Seats crafted of the purest white ivory stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20403
+grey stone~
+one of the grey stone seats~
+Seats formed from solid, grey stone stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20404
+black obsidian~
+one of the black obsidian seats~
+Seats carved from the blackest obsidian stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20405
+ring gaian oak~
+A Ring of the Gaians~
+An oak ring floats seemlessly here, awaiting its owner.~
+~
+15 524608 3
+750 0 0 15
+1 12000 1200
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Gaians
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Gaians
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20406
+gaia belt green ivy~
+A Belt of Gaia~
+A thick belt of ivy lies here, its green skin shining.~
+~
+9 524545 2049
+7 7 0 0
+1 20000 2000
+A
+13 20
+A
+12 30
+A
+14 10
+A
+18 4
+A
+19 4
+A
+4 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Gaians
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Gaians
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20407
+pool small~
+The Gaian Guild Fountain~
+A small pool of crystal water encircles the mystical flames.~
+~
+25 -2147483648 0
+9999 0 0 0
+1 0 0
+#20408
+bed rose petals plush~
+one of the beds~
+Beds of plush rose petals lie in a circular pattern around the lake.~
+~
+12 -2147483648 0
+0 0 585 24
+1 0 0
+#20409
+lantern gaians granite~
+A Granite Lantern~
+A lantern of the Guild of Gaians lies here.~
+~
+1 524544&65536 1
+10 10 -1 0
+1 16125 1612
+A
+13 10
+A
+12 25
+A
+18 5
+A
+19 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Gaians
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Gaians
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20497
+chain small black~
+The Chain~
+A small, black chain hangs from the ceiling of the cavern.~
+~
+37 -2147483648 0
+1 0 0 0
+1 0 0
+> pull_prog 100~
+if isopen($n) == up
+  mpecho _gre The ground slides closed hiding the passage above.
+  mpclosepassage 20400 5
+  mpclosepassage 20411 4
+else
+  mpecho _gre The ground slides open revealing a passage above.
+  mpopenpassage 20400 20411 5
+  mpopenpassage 20411 20400 4
+endif
+push $o
+~
+|
+#20498
+mushroom small scrumptious~
+The Mushroom~
+A small, scrumptious looking mushroom is growing here.~
+~
+37 -2147483648 0
+1 0 0 0
+1 0 0
+> pull_prog 100~
+if isopen($n) == down
+  mpecho _gre The ground slides closed hiding the passage below.
+  mpclosepassage 20400 5
+  mpclosepassage 20411 4
+else
+  mpecho _gre The ground slides open revealing a passage below.
+  mpopenpassage 20400 20411 5
+  mpopenpassage 20411 20400 4
+endif
+push $o
+~
+|
+#20499
+podium stone tome communication~
+The Tome of Communication~
+A podium of stone rises from the ground here, a tome lying upon it.~
+~
+12 -2147483648 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#20400
+Before the Hill of Gaia~
+The bottom of the tall, steep hill, is bathed in lush green grass. A canopy
+of enormous Dun Loth trees form a path up and down the hill. A single brown
+mushroom, the size of an average human head, is poking up from the ground
+near the bottom of the hill. Wildflowers litter the area with splotches of
+blue, pink, green, purple and red. 
+~
+0 36701188 3
+D4
+~
+~
+0 -1 20401
+D7
+~
+~
+0 -1 21205
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Gaians
+else
+mptransfer $n 21205
+endif
+~
+|
+S
+#20401
+Atop the Hill of Gaia~
+The surrounding area is mostly flat, while the incline turns very steeply
+away from the hill. Lush grass coats the area, hiding the ground that is
+beneath. The grass itself is a deep green, with a tinge of blue. Two small
+tents lie near to the main area, while a large lake lies to the east. A
+bright yellow fire's light glitters off the encircling pool, in the center
+of the main area. 
+~
+0 36701188 3
+D0
+~
+~
+0 -1 20402
+D1
+~
+~
+0 -1 20404
+D2
+~
+~
+0 -1 20406
+D5
+~
+~
+0 -1 20400
+D6
+~
+~
+0 -1 20403
+> speech_prog p Gaia I beseech you, take thine servant to the clouds!~
+if isimmort($n)
+or guild($n) == Guild of Gaians
+  mpecho _lbl Gaia says 'To the clouds you go, $n.'
+  mptrans $n 20407
+  mpat 20407 mpforce $n look
+else
+  mpecho _lbl Gaia says 'You are unworthy, my dear $n.'
+endif
+~
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Gaians
+else
+mptransfer $n 20400
+endif
+~
+|
+S
+#20402
+The Happy Rabbit Supply Shoppe~
+An enormous tree stump sits within the cotton tent. The shadowy outline of
+tent stakes flicker across the fabric. The air within the tent is cool and
+dry. Small green crickets are chirping, while butterflies float lazily
+around within the tent. The inside of the stump has been carved into a case
+for the store's wares. 
+~
+0 36701188 0
+D2
+~
+~
+0 -1 20401
+S
+#20403
+The Way of Gaia~
+A large wooden platform lies in the center of a large, cleared area. The
+platform, built around a few select trees, is covered in rawhide that has
+been stretched tight. The trees within the platform are all large and lush,
+with small ivy vines traveling in circles up the root of the tree. The
+octagon shaped platform has a small wooden pike at each corner. A group of
+butterflies and birds are fluttering about within the trees.
+~
+0 36701188 0
+D9
+~
+~
+0 -1 20401
+S
+#20404
+Before Loch Du Gaian~
+A stone path slowly gives way to dark green grass. The evenly gut grass
+circles the crystal clear lake. Glints of gold and silver flicker upon the
+surface of the serene waters. Various Nymphs and Dryads dance around and in
+the lake, in tiny groups, while a doe and her young have made a small home
+on the north side of the lake. On the edge of the lake beds of roses are
+formed from the petals of red, white, yellow, and pink roses.
+~
+0 36701188 3
+D3
+~
+~
+0 -1 20401
+D5
+~
+~
+0 -1 20405
+S
+#20405
+The Loch Du Gaian~
+Silver and gold rocks litter the bottom of the lake, glinting in the water.
+The light from the rocks refracts off the water creating a prismic affect
+on the water. Miniature zebra-stripe fish dart around, mingling with a
+school of tiger-stripe fish. Small hook shaped rocks are embedded into the
+wall of the lake, some with pieces of armor hanging from them. 
+~
+0 37225476 8
+D4
+~
+~
+0 -1 20404
+> entry_prog 100~
+if guild($n) == Guild of Gaians
+or isimmort($n)
+  cast 'aqua breath' $n
+  say $n, you follow the ways of the Gaians, you are worthy.
+else
+  say $n, you do not follow the ways of the Gaians.
+  say This path will only lead you to death.
+endif
+~
+|
+S
+#20406
+The Talking Trees~
+The area surrounding the tome is darkened, while the sound of hushed
+whispers fill the air. The shadows of the tree-limbs flicker on the ground
+and podium. The temperature around the podium is cooler than the
+encompassing area. The trees all have a mouth-shaped hole in the center of
+the bark that is facing the podium.
+~
+0 36701188 3
+D0
+~
+~
+0 -1 20401
+S
+#20407
+The Hall of Clouds~
+The Hall of Clouds is an enormous hall. Seats formed from white ivory, grey
+stone, or black obsidian have been situated around a single podium which
+lies in the center of the hall. The floor itself is made of white, grey,
+and black clouds. 
+~
+0 36701188 3
+D0
+~
+~
+0 -1 20408
+D8
+~
+~
+0 -1 20409
+D9
+~
+~
+0 -1 20410
+S
+#20408
+The Golden Cloud Hall~
+An enormous hall forms the Golden Cloud Hall. Seats fill the hall,
+encircling a podium of pure silver. Each seat is crafted from the purest
+white ivory. The floor of the hall is made of bright golden clouds. 
+~
+0 36701188 3
+D2
+~
+~
+0 -1 20407
+S
+#20409
+The Grey Cloud Hall~
+An enormous hall forms the Grey Cloud Hall. Seats fill the hall, encircling
+a slate podium. Each seat is crafted from the smoothest grey stone. The
+floor of the hall is made of dullish grey clouds.
+~
+0 36701188 3
+D7
+~
+~
+0 -1 20407
+S
+#20410
+The Storm Cloud Hall~
+An enormous hall forms the Storm Cloud Hall. Seats fill the hall, encircling
+a dark onyx podium. Each seat is crafted from the blackest of obsidian. The
+floor of the hall is made of stormy black clouds. 
+~
+0 36701188 3
+D6
+~
+~
+0 -1 20407
+S
+#20411
+A Portal of Liquid~
+An archway formed of twined branches sits in the center of the room. The
+walls have been carved out of the dirt, and set with a light glazing
+substance. The inside of the archway is formed from a deep blue,
+shimmering, liquid-like substance.
+~
+0 36701188 3
+D10
+~
+portal~
+133128 -1 21000
+S
+#20499
+Floating in a void~
+~
+0 36701188 3
+S
+#0
+
+
+#RESETS
+O 1 20498 1 20400
+O 1 20499 1 20406
+O 1 20401 1 20407
+O 1 20402 1 20407
+O 1 20403 1 20407
+O 1 20404 1 20407
+O 1 20402 1 20408
+O 1 20403 1 20409
+O 1 20404 1 20410
+M 1 20499 1 20403
+O 1 20400 1 20401
+O 1 20407 1 20401
+O 1 20497 1 20411
+O 1 20408 1 20404
+M 1 20400 1 20402
+G 1 20409 1
+G 1 20406 1
+G 1 20405 1
+S
+
+
+#SHOPS
+ 20400    0  0  0  0  0   120  90         0 23    ; Lythia
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,69 @@
+#! /bin/csh -f
+
+#    Set the executable name.
+set exec = 13C
+
+#    Set the logfile directory.
+set log_dir = ../log
+#    Set the port number.
+if ( "$1" != "" ) then
+    set port = $1
+else
+    set port = 5000
+endif
+
+#    Change to area directory.
+cd ../area
+
+#    Set limits.
+nohup
+nice
+unlimit stack
+unlimit core
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while( 1 )
+    #    If you want to have logs in a different directory, change the 'set logfile' line to 
+    #    reflect the directory name.
+    set index = 1000
+    while( 1 )
+	set logfile = $log_dir/$index.log
+	if ( ! -e $logfile && ! -e $log_dir/$index.crash ) break
+	@ index++
+    end
+
+    #    Record starting time.
+    date > $logfile
+
+    #    Run program.
+    #    Check if already running.
+    set matches = `netstat -an | grep ".$port " | grep -c LISTEN`
+    if ( $matches >= 1 ) then
+	#    Already running
+	echo Something is already running on port: $port.
+	exit 0
+    endif
+    ../src/$exec $port >&! $logfile
+
+    #    Delete this out if no gdb.
+    set core = $exec.core
+    if ( -e $core ) then
+	set cmd_file = gdb_cmd.dat
+	echo "" >>&! $logfile
+	echo "-----[ Crash Trace Data ]-----" >>&! $logfile
+	echo "bt" >&! $cmd_file
+	gdb -batch -x $cmd_file -c $core -se ../src/$exec >>&! $logfile
+	if ( -e $cmd_file ) then
+	    rm -f $cmd_file
+	endif
+	mv $logfile $log_dir/$index.crash
+	mv $core ../src/$core.old
+    endif
+
+    #    Restart, giving old connections a chance to die.
+    if ( -e shutdown.txt ) then
+	rm -f shutdown.txt
+	exit 0
+    endif
+    sleep 5
+end

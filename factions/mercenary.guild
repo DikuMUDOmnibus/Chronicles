@@ -1,0 +1,37 @@
+#FACTION
+Name         Guild of Mercenaries~
+Filename     mercenary.guild~
+Motto        "The only thing more dangerous than a mercenary is a mercenary with a weapon."~
+Description  ~
+Deity        ~
+Leader       ~
+NumberOne    ~
+NumberTwo    ~
+Badge        Mercenary~
+Leadrank     Knight~
+Onerank      Barbarian~
+Tworank      Strider~
+PKillRangeNew   0 0 0 0 0 0 0
+PDeathRangeNew  0 0 0 0 0 0 0
+MKills       0
+MDeaths      0
+IllegalPK    0
+Score        0
+Type         2
+Flags        511
+Favour       0
+Strikes      0
+Members      0
+MemLimit     0
+Alignment    0
+Board        20505
+ObjOne   0
+ObjTwo   0
+ObjThree 0
+ObjFour  0
+ObjFive  0
+Recall       20501
+Storeroom    20502
+End
+
+#END

@@ -1,0 +1,490 @@
+#AREA        The Hidden Cabin~
+
+
+
+#VERSION     1
+#AUTHOR      Orion~
+#DERIVATIVES ~
+
+#RANGES
+10 100 0 105
+$
+
+#NAMEFORMAT &r&G&b[ &G&zGuild of Mercenaries&G&b, &G&w<%room_name%> &G&b]~
+
+#DESCFORMAT &r&Y&b~
+
+#RESETMSG &r&G&Y&G&OA slight rattle pervades the calmness of the cabin, then dissipates.~
+
+#FLAGS
+0
+
+#ECONOMY 0 101250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#20500
+shop keeper man yavin~
+Yavin~
+A burly man bedecked in war-torn chainmail stands here.
+~
+~
+67108867 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 20 13 25 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#20599
+archer man teacher~
+The Archer~
+A nimble man stand here, playing with a bow.
+~
+~
+67109891 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 5 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#20500
+ornate stone fountain~
+The Mercenaries Guild Fountain~
+An ornate stone fountain spews forth crystal clear waters.~
+~
+25 -2147483648 0
+0 0 0 0
+1 0 0
+#20501
+podium conference oak obsidian~
+the Conference Podium~
+An ornate podium, made of dark oak and trimmed in obsidian, sits here.~
+~
+12 -2147483648 0
+0 0 32 1
+1 0 0
+#20502
+white ivory~
+one of the white ivory seats~
+Seats crafted of the purest white ivory stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20503
+grey stone~
+one of the grey stone seats~
+Seats formed from solid, grey stone stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20504
+black obsidian~
+one of the black obsidian seats~
+Seats carved from the blackest obsidian stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20505
+ring mercenaries cobalt~
+A Ring of the Mercenaries~
+A cobalt ring glows brilliantly here, awaiting its owner.~
+~
+15 524544 3
+750 0 0 15
+1 12000 1200
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Mercenaries
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Mercenaries
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20506
+gauntlets spiked mithril~
+A Pair of Spiked Gauntlets~
+A set of mithril gauntlets with spikes around the edges lie here.~
+~
+9 524545 129
+7 7 0 0
+1 20000 2000
+A
+13 10
+A
+12 15
+A
+18 2
+A
+19 2
+A
+1 3
+A
+14 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Mercenaries
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Mercenaries
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20507
+lantern mercenaries brass~
+A Brass Lantern~
+A lantern of the Guild of Mercenaries lies here.~
+~
+1 524544&65536 1
+10 10 -1 0
+1 16125 1612
+A
+13 10
+A
+12 25
+A
+18 5
+A
+19 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Mercenaries
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Mercenaries
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20508
+soft reclining chairs~
+one of the recliners~
+Soft reclining chairs sit in a circle around the room.~
+~
+12 -2147483648 0
+0 0 585 24
+1 0 0
+#20599
+podium wooden tome communication~
+The Tome of Destruction~
+A wooden podium sits here, a tome lying upon it.~
+~
+12 -2147483648 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#20500
+A Forest Clearing~
+A clearing in the trees gives way to a large statue of the Elder of the
+Great Gods of old. Large conifers stand around the statue in a perfect
+circle. Small pinecones are scattered around the statue in random order.
+To the southwest lies a large cabin made of white pine. The entrance
+lacking even a door.
+~
+0 36701196 1
+D6
+~
+~
+0 -1 21185
+D9
+~
+~
+0 -1 20501
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Mercenaries
+else
+mptransfer $n 21185
+endif
+~
+|
+S
+#20501
+Main Hall~
+The main hall is an octagonal room of enormous proportions. The white
+pine that forms the walls has been shaved and sanded to utter, smooth
+perfection. Scuff marks and indentations litter the floor of the hall.
+Silver trim lines the walls, as well as all the arched doorways. The
+hallway extends to the north, east, south, west, northeast, and
+northwest.
+~
+0 36701196 1
+D0
+~
+~
+0 -1 20502
+D1
+~
+~
+0 -1 20503
+D2
+~
+~
+0 -1 20504
+D3
+~
+~
+0 -1 20505
+D6
+~
+~
+0 -1 20500
+D7
+~
+~
+0 -1 20510
+S
+#20502
+The Closet~
+Thick pine shelves line the northern wall of the closet, while hooks
+labeled armor are placed all along the eastern wall. On the western
+wall are several pegs, each engraved with the glyph of weaponry. On
+the floor of the closet are a bevy of random items. The hallway
+extends to the south.
+~
+0 37225484 1
+D2
+~
+~
+0 -1 20501
+S
+#20503
+The Midnight Mercenary~
+A large, cubical room, the Midnight Mercenary is littered with items
+to aid the adventuring Mercenary in their travels. Plain, white-pine,
+demonstration stands line each wall. On the eastern wall lies weapons
+of enormous power. Each engraved with the name and an imagigram of the
+former owner. On the west lies armors of great protective abilities,
+each of which is meticulously clean. The north and south display case
+contains items for sale, each item preceded by a small sign with a unit
+of value. The hallway extends to the west.
+~
+0 36701196 1
+D3
+~
+~
+0 -1 20501
+S
+#20504
+The Sparring Circle~
+A large pine sparring platform lies within the center of this chamber,
+while smaller sparring platforms are placed in a circle around it. Each
+platform has its share of dried blood and cracked planks. Several seats
+encircle the large platform. The walls are lined with various weapons,
+each worn from repeated use. The hallway extends to the north.
+~
+0 36701196 1
+D0
+~
+~
+0 -1 20501
+S
+#20505
+The Back Office~
+The walls of the office are bare, save for a few announcements by the
+elders looking for new members for their war parties. In the center of
+the room is a plain, wooden podium, upon which lies a communication
+tome. The hallway extends to the east.
+~
+0 36701196 1
+D1
+~
+~
+0 -1 20501
+S
+#20506
+The Main Conference Hall~
+The Main Conference Hall is an enormous chamber. Seats made of white
+ivory, grey stone, or black obsidian have been situated around a lone
+podium which lies in the center of the hall. The hallway extends to
+the north, east, northwest, and southwest.
+~
+0 36701196 1
+D0
+~
+~
+0 -1 20507
+D1
+~
+~
+0 -1 20508
+D7
+~
+~
+0 -1 20511
+D9
+~
+~
+0 -1 20509
+S
+#20507
+The Golden Conference Hall~
+An enormous chamber forms the Golden Conference Hall. Seats fill the hall,
+encircling a podium of golden pine. Each seat is crafted from the purest
+white ivory. The floor of the hall is solid white pine.
+~
+0 36701196 1
+D2
+~
+~
+0 -1 20506
+S
+#20508
+The Grey Conference Hall~
+An enormous chamber forms the Grey Conference Hall. Seats fill the hall,
+encircling a petrified, oaken podium. Each seat is crafted from the
+smoothest grey stone. The floor of the hall is made of dullish grey clouds.
+~
+0 36701196 1
+D3
+~
+~
+0 -1 20506
+S
+#20509
+The Obsidian Conference Hall~
+An enormous chamber forms the Obsidian Conference Hall. Seats fill the hall,
+encircling a dark onyx podium. Each seat is crafted from the blackest of
+obsidian. The floor of the hall is made of stormy black clouds.
+~
+0 36701196 1
+D6
+~
+~
+0 -1 20506
+S
+#20510
+The Lower Stairwell~
+A large stairwell, the walls are lit by silver torches. The light glitters
+off the fire basin, dancing shadows filling the area. The wide steps are
+formed of thick, white, pine planks. A thick, steel rail guards the edge
+of the stairs.
+~
+0 36701196 1
+D4
+~
+~
+0 -1 20511
+D8
+~
+~
+0 -1 20501
+S
+#20511
+The Upper Stairwell~
+A large stairwell, the walls are lit by silver torches. The light glitters
+off the fire basin, dancing shadows filling the area. The wide steps are
+formed of thick, white, pine planks. A thick, steel rail guards the edge
+of the stairs.
+~
+0 36701196 1
+D5
+~
+~
+0 -1 20510
+D8
+~
+~
+0 -1 20506
+S
+#20599
+Floating in a void~
+~
+0 36701196 1
+S
+#0
+
+
+#RESETS
+O 1 20502 1 20507
+O 1 20503 1 20508
+O 1 20504 1 20509
+M 1 20599 1 20504
+O 1 20599 1 20505
+O 1 20501 1 20506
+O 1 20502 1 20506
+O 1 20503 1 20506
+O 1 20504 1 20506
+M 1 20500 1 20503
+G 1 20505 1
+G 1 20506 1
+G 1 20507 1
+O 1 20500 1 20501
+O 1 20508 1 20501
+S
+
+
+#SHOPS
+ 20500    0  0  0  0  0   120  90         0 23    ; Yavin
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

@@ -1,0 +1,539 @@
+#AREA        Shadows of Life~
+
+
+
+#VERSION     1
+#AUTHOR      Orion~
+#DERIVATIVES ~
+
+#RANGES
+10 100 0 105
+$
+
+#NAMEFORMAT &r&G&w[ &G&zGuild of Rogues&G&w, &G&W<%room_name%> &G&w]~
+
+#DESCFORMAT &r&Y&w~
+
+#RESETMSG &r&G&C&zA shadow seeps from a crack in the ground and darts past you towards the exit!~
+
+#FLAGS
+48
+
+#ECONOMY 0 101250242
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#20200
+shop keeper man dirth~
+Dirth~
+A slim man stands behind the counter, fussing over stolen goods.
+~
+~
+67108867 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 20 13 25 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#20298
+thief master teacher~
+The Master Thief~
+A master thief is here to demonstrate the ways of the rogue.
+~
+~
+67109891 4194344 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#20299
+blood tree leaves bloody~
+The Blood Tree~
+A tree stands here with its leaves coated in fresh blood.
+~
+~
+131139 0 0 C
+1 0 0 1d1+249 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 0
+0 0 0 0 3156992 0 0 0
+> death_prog 100~
+scream
+~
+|
+#0
+
+
+#OBJECTS
+#20200
+fountain platinum obsidian gold silver~
+The Rogues Guild Fountain~
+An obsidian fountain trimmed in silver, gold and platinum sprays clear water.~
+~
+25 -2147483648 0
+9999 0 0 0
+1 0 0
+#20201
+podium gathering cherry oak silver~
+the Gathering Podium~
+A podium of the finest cherry oak and trimmed in silver, sits here.~
+~
+12 -2147483648 0
+0 0 32 1
+1 0 0
+#20202
+white ivory~
+one of the white ivory seats~
+Seats crafted of the purest white ivory stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20203
+grey stone~
+one of the grey stone seats~
+Seats formed from solid, grey stone stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20204
+black obsidian~
+one of the black obsidian seats~
+Seats carved from the blackest obsidian stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20205
+metal flask silver dragon engraved~
+The Silver-Dragon Flask~
+A metal flask, composed of silver, with a dragon engraved on it lies here.~
+~
+17 524544&65536 16385
+25 25 6 0
+1 3000 300
+#20206
+cloak shayde black crimson~
+A Cloak of Shayde~
+A black cloak lies here, crimson designs covering it.~
+~
+9 257 1025
+7 7 0 0
+1 20000 2000
+A
+13 20
+A
+12 30
+A
+14 10
+A
+18 4
+A
+19 4
+A
+2 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Rogues
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Rogues
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20207
+ring rogues obsidian~
+A Ring of the Rogues~
+An obsidian ring lies here twinkling, awaiting its owner.~
+~
+15 524608 3
+750 0 0 15
+1 12000 1200
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Rogues
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Rogues
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+|
+#20208
+plush velvet couches~
+one of the couches~
+Plush velvet couches sit snugly against each wall.~
+~
+12 -2147483648 0
+0 0 585 24
+1 0 0
+#20209
+lantern rogues ivory~
+An Ivory Lantern~
+A lantern of the Guild of Rogues lies here.~
+~
+1 524544&65536 1
+10 10 -1 0
+1 16125 1612
+A
+13 10
+A
+12 25
+A
+18 5
+A
+19 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Rogues
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Rogues
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20299
+podium white pine gold tome communication~
+The Tome of Communication~
+A white pine podium, trimmed in gold, sits here, a tome lying upon it.~
+~
+12 -2147483648 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#20200
+The Shadowed Chamber~
+Plush velvet couches line the walls of the chamber. Paintings and tapestries
+hang from the grey stone walls. Each painting and tapestry depicts roguish
+acts. An ornate fountain is in the center of the room, its obsidian edges
+partially encircling an ornate rug in the fountain's center. There are four
+arches, each leading in one of the four cardinal directions, while a large
+stairwell leads up to a landing.
+~
+0 36701196 1
+D0
+~
+~
+0 -1 20203
+D1
+~
+~
+0 -1 20201
+D2
+~
+~
+0 -1 21064
+D3
+~
+~
+0 -1 20202
+D4
+~
+~
+0 -1 20205
+D5
+~
+trapdoor~
+2059 -1 20209
+E
+ornate rug~
+The rug has a square shape within it, as if it were hiding something. The
+shape is almost big enough for an over-grown Orc to fit within, no problem,
+and is in the shape of a door.  
+~
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Rogues
+else
+mptransfer $n 21064
+endif
+~
+|
+S
+#20201
+The Art of Profit~
+A sparring circle is situated in one corner, while a dummy covered in
+bells stands in the other, the occasional jingle trickling forth from it.
+The walls are covered in leather parchment, each with instructions on a
+particular ability. An archway leads to the west. 
+~
+0 36701196 1
+D3
+~
+~
+0 -1 20200
+S
+#20202
+The Poisoned Blade~
+A single oak counter is situated in the center of the room. A glass case
+within the counter contains many items marked with a tag. The  counter is
+bolted to the floor with very large bolts, which are glowing. The room
+itself is bare, save for a few shelves. An archway leads to the east.
+~
+0 36701196 1
+D1
+~
+~
+0 -1 20200
+E
+tag~
+'This is for sale... that means you buy it! If I catch you stealing  from
+me, you'll lose more than your reputation, next time it will  be your
+hands!' - Dirth, the PISSED! 
+~
+S
+#20203
+Chamber of Loot~
+The room is littered with items, some shiny, some dull, most of which look
+fake. Lockers line the walls, each locked with a mystical lock. A lamp of
+elven origins hangs from the ceiling, in the center of the room. An archway
+leads to the east, and another to the south. 
+~
+0 37225484 1
+D1
+~
+~
+0 -1 20204
+D2
+~
+~
+0 -1 20200
+S
+#20204
+The Shadows Speak~
+The room is filled with shadows. The only light in the room comes from
+personal lights, or the room to the west. The room is bare, for the most
+part. The only furnishing is a large podium, with a tome lying upon it. The
+tome is marked with the rune of communication. An archway leads to the
+west. 
+~
+0 36701196 1
+D3
+~
+~
+0 -1 20203
+S
+#20205
+The Chamber of Gathering~
+The Chamber of Gathering is an enormous hall. Seats made of white ivory,
+grey stone, or black obsidian have been situated around a single podium
+which lies in the center of the chamber. Arches lead in one of three
+directions: north, east, or west. A stairwell leads downward to a flat.
+~
+0 36701192 1
+D0
+~
+~
+0 -1 20207
+D1
+~
+~
+0 -1 20208
+D3
+~
+~
+0 -1 20206
+D5
+~
+~
+0 -1 20200
+S
+#20206
+The Hall of Whispers~
+An enormous hall, ivory in color, forms the Hall of Whispers. Seats fill the
+hall, encircling a brilliant silver podium which sits at the center of the
+hall, each crafted shining white ivory. A sing archway leads to the east. 
+~
+0 36701192 1
+D1
+~
+~
+0 -1 20205
+S
+#20207
+The Hall of Glimpses~
+An enormous hall, plain in color, forms the Hall of Glimpses. Seats fill the
+hall, encircling a slate podium within the center of the hall, each made of
+plain grey stone. A single archway leads to the south. 
+~
+0 36701192 1
+D2
+~
+~
+0 -1 20205
+S
+#20208
+The Hall of Screams~
+An enormous hall, black in color, forms the Hall of Screams. Seats fill the
+hall, encircling an Onyx podium lying in the hall's center, each made of the
+darkest obsidian. A single archway leads west. 
+~
+0 36701192 1
+D3
+~
+~
+0 -1 20205
+S
+#20209
+The Underground Chamber~
+The chamber is bare, aside from the trickling of water from the ceiling. The
+walls are solid grey stone, each brick meticulously engraved with the name
+of a master thief. A set of lighter stone briquettes form a sort of pathway.
+An archway leads north, while a small ladder leads up. 
+~
+0 36701196 1
+D0
+~
+~
+0 -1 20210
+D4
+~
+trapdoor~
+3 -1 20200
+S
+#20210
+A Dark Corridor~
+Shadows dance on the walls, from the torches lining the stone path. Each
+torch is an expensive-looking silver, with an oil based focal point. The
+oil adds the scent of oak to the air. An archway leads north, and another
+leads south. 
+~
+0 36701196 1
+D0
+~
+~
+0 -1 20211
+D2
+~
+~
+0 -1 20209
+S
+#20211
+The Hall of Blood~
+A circle of trees has formed around a single tree within the center of
+this chamber. The trees form the chamber, their leaves form the ceiling,
+and their trunks form the walls. The trees are mystical in nature, thus
+their independence from the sun. Through the cracks in the leaves and
+trunks, stone is visible. A lone tree sits in the center of the room, its
+movements almost sentient. An archway leads south.  
+~
+0 36700172 1
+D2
+~
+~
+0 -1 20210
+> death_prog 100~
+if isnpc($n)
+if name($n) == blood tree leaves bloody
+mppurge
+mpecho _blu As the life drains from the mystical tree, another takes root.
+mpmload 20299
+endif
+endif
+~
+|
+S
+#20299
+Floating in a void~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+O 1 20299 1 20204
+O 1 20201 1 20205
+O 1 20202 1 20205
+O 1 20203 1 20205
+O 1 20204 1 20205
+O 1 20202 1 20206
+O 1 20203 1 20207
+O 1 20204 1 20208
+D 0 20209 4 1
+M 1 20299 1 20211
+M 1 20298 1 20201
+O 1 20200 1 20200
+O 1 20208 1 20200
+D 0 20200 5 1
+M 1 20200 1 20202
+G 1 20209 1
+G 1 20206 1
+G 1 20207 1
+G 1 20205 1
+G 1 33 1
+S
+
+
+#SHOPS
+ 20200    0  0  0  0  0   120  90         0 23    ; Dirth
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

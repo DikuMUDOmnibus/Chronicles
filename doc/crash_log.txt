@@ -1,0 +1,28 @@
+The Chronicles Crash Logging System
+-----
+This system is not highly complex. It is, however, still under the Chronicles license 
+agreement. As such, I highly suggest you read this agreement if you decide to copy this for 
+your MUD.
+
+The system itself is actually a part of the startup script itself. The script checks to see 
+if it finds a core file. If so, it assumes the MUD died due to a crash (a likely assumption, 
+really).
+
+In the event that a core file is found the script will then append the CTDH (Crash Trace 
+Data Header) to the end of the log file. Afterwords it then prints a GCDF (GDB Commands Data 
+File) which is passed into GDB to get the backtrace data from the core. This information is 
+appended to the log file, as well. The script then removes the GCDF (keeps your directories 
+clean), and renames the log file from .log to .crash (to alert you that CTD has been 
+appended to the file). Finally, it moves the core to the source directory and appends .old 
+to the core file.
+
+The CTDH resembles this:
+-----[ Crash Trace Data ]-----
+
+This system is made, hopefully, to provide backtrace data, notify you that there HAVE been 
+crashes (sometimes they're easy to miss), and basically to give you some help in keeping 
+your MUD up and running.
+
+Thanks go out to Samson for some of the ideas behind this. :)
+
+-Orion Elder

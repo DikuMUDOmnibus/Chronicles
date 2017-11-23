@@ -1,0 +1,1602 @@
+#HTML
+0
+
+#News
+TimeStamp 996751006
+NewsData  The 'Elder Chronicles' news system was added.~
+End
+
+#News
+TimeStamp 996751007
+NewsData  Default room colors were changed.~
+End
+
+#News
+TimeStamp 996751008
+NewsData  Exit flags changed to show by name, in RStat.~
+End
+
+#News
+TimeStamp 996751009
+NewsData  Code fixed to run with 100% clean compile, and execution.~
+End
+
+#News
+TimeStamp 996751010
+NewsData  Save frequency and flags have been adjusted.~
+End
+
+#News
+TimeStamp 996751011
+NewsData  Who list adjusted, to add colorization.~
+End
+
+#News
+TimeStamp 996751012
+NewsData  Fixed IMC problems, with pager not working correctly.~
+End
+
+#News
+TimeStamp 996751013
+NewsData  Note listings colorized, no longer green.~
+End
+
+#News
+TimeStamp 996751014
+NewsData  Group function updated.~
+End
+
+#News
+TimeStamp 996751015
+NewsData  Fixed skills to work, only if you can actually USE them.~
+End
+
+#News
+TimeStamp 996751016
+NewsData  Removed (Immortal) and (Unclanned) tags from player display.~
+End
+
+#News
+TimeStamp 996751017
+NewsData  Moved the MUD over to its own account.~
+End
+
+#News
+TimeStamp 996751018
+NewsData  Fixed bug in do_slist.~
+End
+
+#News
+TimeStamp 997269419
+NewsData  The 'Elder Chronicles' news system was updated.~
+End
+
+#News
+TimeStamp 997269420
+NewsData  The 'Elder Chronicles' news system was bugfixed.~
+End
+
+#News
+TimeStamp 997269421
+NewsData  The 'Elder Chronicles' news system colors were adjusted.~
+End
+
+#News
+TimeStamp 997355821
+NewsData  The 'Elder Chronicles' news system was updated and bugfixed.~
+End
+
+#News
+TimeStamp 1007637422
+NewsData  Do_Practice list changed to call 'Skills' 'Abilities' so that the 
+            practice list can be aligned properly.~
+End
+
+#News
+TimeStamp 1007637423
+NewsData  Do_Practice changed to reflect '0' practices as 'no' practices.~
+End
+
+#News
+TimeStamp 1012907824
+NewsData  Autoglance added.~
+End
+
+#News
+TimeStamp 1012907825
+NewsData  Autoglance bugfixed.~
+End
+
+#News
+TimeStamp 1013080626
+NewsData  TITTY (Terrific Intercommunications Tool of the Terifying YETI) 
+            was formed by the YETI (Your Evil Transient Iconoclasts).~
+End
+
+#News
+TimeStamp 1013771827
+NewsData  Intermud-3 Protocol added.~
+End
+
+#News
+TimeStamp 1014376628
+NewsData  Added in the slots config option (shows open equipment slots on 
+            your character).~
+End
+
+#News
+TimeStamp 1014376629
+NewsData  Updated wear slots names to get uniform look.~
+End
+
+#News
+TimeStamp 1014376630
+NewsData  Fixed wear slot names to correct missing space in name.~
+End
+
+#News
+TimeStamp 1014376631
+NewsData  Removed the newscore command (useless).~
+End
+
+#News
+TimeStamp 1014376632
+NewsData  Score command altered to clean up formatting.~
+End
+
+#News
+TimeStamp 1014376633
+NewsData  Files sorted into directories to cut file sorting.~
+End
+
+#News
+TimeStamp 1014895034
+NewsData  Updated news system to implement a timestamp rather than storing 
+            day, month, and year.~
+End
+
+#News
+TimeStamp 1014898359
+NewsData  Converted news system over to new timestamp variables... by hand.~
+End
+
+#News
+TimeStamp 1014899730
+NewsData  Added timestamp checks to the news code. Only latest news is 
+            shown.~
+End
+
+#News
+TimeStamp 1014900177
+NewsData  Bugfixed the "all" option of news, and corrected timestamping.~
+End
+
+#News
+TimeStamp 1015329717
+NewsData  Converted the MUD to use five Immortal levels.~
+End
+
+#News
+TimeStamp 1015329737
+NewsData  Updated commands.dat for the new command levels.~
+End
+
+#News
+TimeStamp 1015329960
+NewsData  Updated the news helpfile to have the news command syntax.~
+End
+
+#News
+TimeStamp 1015333668
+NewsData  Wizhelp adjusted to sort commands by level.~
+End
+
+#News
+TimeStamp 1015401162
+NewsData  Added reqwhoarg as a cset function instead of a define in mud.h.~
+End
+
+#News
+TimeStamp 1015404584
+NewsData  Fixed buffer overflow in I3.~
+End
+
+#News
+TimeStamp 1015412993
+NewsData  Fixed IMC to automatically recompile when necessary.~
+End
+
+#News
+TimeStamp 1015488806
+NewsData  Fixed channel problem in I3.~
+End
+
+#News
+TimeStamp 1015603506
+NewsData  Updated help news to reflect new news options of "first" and 
+            "last."~
+End
+
+#News
+TimeStamp 1015603525
+NewsData  Added "first" and "last" options to news function.~
+End
+
+#News
+TimeStamp 1015603563
+NewsData  Debugged "first" and "last" news options (thanks to Trax for the 
+            help with that).~
+End
+
+#News
+TimeStamp 1015604965
+NewsData  Debugged problem with characters timestamping.~
+End
+
+#News
+TimeStamp 1015644584
+NewsData  Fixed memory macros, and linked list macros.~
+End
+
+#News
+TimeStamp 1015825632
+NewsData  Removed the unused, useless mapout code.~
+End
+
+#News
+TimeStamp 1015826113
+NewsData  Changed the 'Type HELP START' prompt to a colorized version.~
+End
+
+#News
+TimeStamp 1015826883
+NewsData  Changed the default prompt to include some more useful 
+            information.~
+End
+
+#News
+TimeStamp 1015849070
+NewsData  Added in the Admin, Enforcer, Builder and Roleplayer Immortal rank 
+            flags.~
+End
+
+#News
+TimeStamp 1016023689
+NewsData  Updated the IMC setup to reflect the switch to MUD-Net.~
+End
+
+#News
+TimeStamp 1016190895
+NewsData  Chronicles Codebase license created.~
+End
+
+#News
+TimeStamp 1016436776
+NewsData  Added html support to the news code.~
+End
+
+#News
+TimeStamp 1016464429
+NewsData  Debugged the html support, and advanced it slightly.~
+End
+
+#News
+TimeStamp 1016530156
+NewsData  Finalized html_format in the news snippet.~
+End
+
+#News
+TimeStamp 1016611244
+NewsData  Code fixed... again... to run with 100% clean compile, and 
+            execution.~
+End
+
+#News
+TimeStamp 1017228759
+NewsData  Updated the areas command to shorten the output.~
+End
+
+#News
+TimeStamp 1017228766
+NewsData  Created a new version command.~
+End
+
+#News
+TimeStamp 1017231288
+NewsData  Added an 'info' option to the areas command.~
+End
+
+#News
+TimeStamp 1017478312
+NewsData  Added support for the 'info' option to the aset option.~
+End
+
+#News
+TimeStamp 1017754182
+NewsData  Updated the code for the score command.~
+End
+
+#News
+TimeStamp 1017754272
+NewsData  Added in an autonews option, that allows people to automatically 
+            see new news as they log in.~
+End
+
+#News
+TimeStamp 1018884517
+NewsData  Adjusted MUD to use 100 mortal levels.~
+End
+
+#News
+TimeStamp 1018884615
+NewsData  Changed socket code to allow only 20 sockets for logging in, using 
+            the MAX_CONNECT_SOCKET variable in the mud.h file.~
+End
+
+#News
+TimeStamp 1018944242
+NewsData  Updated the experience system.~
+End
+
+#News
+TimeStamp 1018950636
+NewsData  Updated level checks for the 100 level system.~
+End
+
+#News
+TimeStamp 1019022540
+NewsData  Updated hard level checks, for the 100 level system.~
+End
+
+#News
+TimeStamp 1019508967
+NewsData  IMC code and hooks removed.~
+End
+
+#News
+TimeStamp 1019885685
+NewsData  Updated I3 to the latest version.~
+End
+
+#News
+TimeStamp 1020744454
+NewsData  Removed ibuild.c support.~
+End
+
+#News
+TimeStamp 1021102695
+NewsData  Changed the NAME macro a bit and moved it over to mud.h.~
+End
+
+#News
+TimeStamp 1021102737
+NewsData  Added the new questmaster code.~
+End
+
+#News
+TimeStamp 1024729190
+NewsData  Updated the fight experience to fix a bug in the xp_gain 
+            calculation.~
+End
+
+#News
+TimeStamp 1027396585
+NewsData  Updated I3 configuration to reflect the new codebase type.~
+End
+
+#News
+TimeStamp 1027397094
+NewsData  Adjusted the binary to name 13C and updated the startup script to 
+            reflect that change.~
+End
+
+#News
+TimeStamp 1027431660
+NewsData  Added Copyover Code.~
+End
+
+#News
+TimeStamp 1027431669
+NewsData  Debugged Copyover Code.~
+End
+
+#News
+TimeStamp 1027686924
+NewsData  Bugfixed the i3 copyover mudlist problem.~
+End
+
+#News
+TimeStamp 1027770826
+NewsData  Adjusted the leveling announcements, so that advanced characters 
+            do not get announced.~
+End
+
+#News
+TimeStamp 1029333073
+NewsData  Added smash_tilde to do_bestow and do_bestoware to keep the 
+            functions from being a security risk.~
+End
+
+#News
+TimeStamp 1030071148
+NewsData  Updated create_water to correct a bug in the amount of water 
+            created.~
+End
+
+#News
+TimeStamp 1030418512
+NewsData  Updated the M.O.R. prog act routines, to correct a memory leak and 
+            bug problem.~
+End
+
+#News
+TimeStamp 1030419124
+NewsData  Added access to the qset (quest set) command.~
+End
+
+#News
+TimeStamp 1030431931
+NewsData  Wizlock to the cset options, so that the game can be permanently 
+            wizlocked if necessary.~
+End
+
+#News
+TimeStamp 1030459305
+NewsData  Started 'hard' level cleanup.~
+End
+
+#News
+TimeStamp 1030602337
+NewsData  Updated level checks to use LEVEL_ macro sets instead of hard 
+            level checks.~
+End
+
+#News
+TimeStamp 1030602502
+NewsData  Room default colors changed to dark blue title, and light grey 
+            description.~
+End
+
+#News
+TimeStamp 1030609771
+NewsData  Added speech prog trigger to do_reply, so that speech progs can be 
+            triggered properly.~
+End
+
+#News
+TimeStamp 1030705139
+NewsData  Added new cset options to handle the autoboot code. Can now set 
+            hour/minute of autoboot, and period (in days) between autoboots.~
+End
+
+#News
+TimeStamp 1030788671
+NewsData  I3 was updated.~
+End
+
+#News
+TimeStamp 1031097317
+NewsData  Fixed memory leak involving race_name.~
+End
+
+#News
+TimeStamp 1031100681
+NewsData  Fixed memory leak in fread_char.~
+End
+
+#News
+TimeStamp 1031100777
+NewsData  Fixed more memory leaks in the prog system.~
+End
+
+#News
+TimeStamp 1032473008
+NewsData  Updated comm.c to remove unnecessary stralloc( "" ); calls.~
+End
+
+#News
+TimeStamp 1032585766
+NewsData  Fixed a bug in the do_score function that caused a crash.~
+End
+
+#News
+TimeStamp 1033398815
+NewsData  Rewrote the color support for I3, fixing several problems in the 
+            process.~
+End
+
+#News
+TimeStamp 1033554733
+NewsData  Updated the code to be gcc 3.0.4 trigraph compliant.~
+End
+
+#News
+TimeStamp 1033863492
+NewsData  Updated strict format checks in whole code, and completed some 
+            soft format checks in the i3.c code.~
+End
+
+#News
+TimeStamp 1033903850
+NewsData  Fixed problem in do_advance involving holy light.~
+End
+
+#News
+TimeStamp 1034067875
+NewsData  Updated the news system... a lot.~
+End
+
+#News
+TimeStamp 1034070911
+NewsData  Updated the news system, again.~
+End
+
+#News
+TimeStamp 1034147072
+NewsData  Added several languages, and updated the tongues.dat file to 
+            include all of them.~
+End
+
+#News
+TimeStamp 1034147086
+NewsData  Made sure the tongues.dat file is closed upon load.~
+End
+
+#News
+TimeStamp 1034309972
+NewsData  Fixed dual wielding problem that allowed wielding of weapon, 
+            missile weapon, and shield at the same time.~
+End
+
+#News
+TimeStamp 1034489711
+NewsData  Updated source headers to use the new Chronicles header 
+            information.~
+End
+
+#News
+TimeStamp 1034490011
+NewsData  Updated who 'www' to print the page properly if called by an 
+            online player.~
+End
+
+#News
+TimeStamp 1034490927
+NewsData  Fixed examine and look so they no longer accept 'noprog' as an 
+            argument.~
+End
+
+#News
+TimeStamp 1034493099
+NewsData  Removed virtual room code.~
+End
+
+#News
+TimeStamp 1034527457
+NewsData  Removed requests pipe garbage.~
+End
+
+#News
+TimeStamp 1034534105
+NewsData  Updated display_prompt, cleaning up many of the properties. See 
+            help ptokens for player tokens and help immtokens for immortal 
+            tokens.~
+End
+
+#News
+TimeStamp 1034591823
+NewsData  Removed uncalled typedefs in mud.h.~
+End
+
+#News
+TimeStamp 1034593002
+NewsData  Updated the default prompt to use the proper tokens.~
+End
+
+#News
+TimeStamp 1034687399
+NewsData  Cleaned up #include calls, so that only necessary #include calls 
+            are made.~
+End
+
+#News
+TimeStamp 1034766456
+NewsData  Removed planes code from the source... I think I got all of it.~
+End
+
+#News
+TimeStamp 1034852461
+NewsData  Removed some orphaned code to do with languages.~
+End
+
+#News
+TimeStamp 1034941902
+NewsData  Eliminated makeobjs.c and mpxset.c. They were wasting space. 
+            Dropped the compiled exe size by 80KB.~
+End
+
+#News
+TimeStamp 1035069931
+NewsData  Updated vampires, removed the vampire race, and changed the 
+            IS_VAMPIRE macro to IS_BLOODSUCKER.~
+End
+
+#News
+TimeStamp 1035075518
+NewsData  Added weapon types to the auction and spell identifications.~
+End
+
+#News
+TimeStamp 1035297537
+NewsData  Fixed default color code stuff, to use proper ANSI grey sequence.~
+End
+
+#News
+TimeStamp 1035377000
+NewsData  Fixed do_vsearch to use correct vnums.~
+End
+
+#News
+TimeStamp 1035384445
+NewsData  Changed maximum blood amount to use the function GetMaxBlood, and 
+            added an apply_blood affect, to allow object to add to one's 
+            maximum blood amount.~
+End
+
+#News
+TimeStamp 1035391521
+NewsData  Changed login menu so that option '3' now shows the latest news.~
+End
+
+#News
+TimeStamp 1035394078
+NewsData  Removed the wait state from immortals. Can now fire hundreds of 
+            spells in seconds.~
+End
+
+#News
+TimeStamp 1035430457
+NewsData  Removed entries from the command table that had no use.~
+End
+
+#News
+TimeStamp 1035438793
+NewsData  Moved quest variables to PC_DATA, and updated some of the quest 
+            code.~
+End
+
+#News
+TimeStamp 1035511447
+NewsData  Updated the help greeting entry, with the Chronicles ASCII text.~
+End
+
+#News
+TimeStamp 1035560377
+NewsData  Fixed a reset bug, with equipping proto objects on mobs.~
+End
+
+#News
+TimeStamp 1035696570
+NewsData  Updated Makefile to make .c and .o files dependent upon all .h 
+            files.~
+End
+
+#News
+TimeStamp 1035698069
+NewsData  Modified the score command separator bar.~
+End
+
+#News
+TimeStamp 1035699740
+NewsData  Put in a new version of the Spectral Gate, and did some tinkering 
+            with the Academy.~
+End
+
+#News
+TimeStamp 1035763055
+NewsData  Fixed the autonews code to not require a double enter press to get 
+            into the game, if you don't use the autonews.~
+End
+
+#News
+TimeStamp 1035764006
+NewsData  Removed the build.are file.~
+End
+
+#News
+TimeStamp 1035764018
+NewsData  Fixed a color bug (thanks to Samson for pointing it out).~
+End
+
+#News
+TimeStamp 1035764035
+NewsData  Found a bug in the copyover code, fixed it.~
+End
+
+#News
+TimeStamp 1035764267
+NewsData  Added bank code a long time ago, and forgot to add it to the news. 
+            Oh well.~
+End
+
+#News
+TimeStamp 1035826909
+NewsData  Added a help entry for formpass and updated the formpass command.~
+End
+
+#News
+TimeStamp 1035826928
+NewsData  Updated the help display to give a default color to the help 
+            entries.~
+End
+
+#News
+TimeStamp 1035829100
+NewsData  Fixed detrap.~
+End
+
+#News
+TimeStamp 1035829129
+NewsData  Removed gsn_shieldwork from the mud.h file.~
+End
+
+#News
+TimeStamp 1035829946
+NewsData  Fixed hell and unhell to use ROOM_VNUM_HELL instead of calling 
+            straight numbers.~
+End
+
+#News
+TimeStamp 1035830318
+NewsData  Removed the profanity checker. It was useless.~
+End
+
+#News
+TimeStamp 1035836126
+NewsData  Removed the grub, showlayers and diagnose.~
+End
+
+#News
+TimeStamp 1035836141
+NewsData  Added mpfind, opfind, and rpfind, as well as updated the help 
+            files for them.~
+End
+
+#News
+TimeStamp 1035838455
+NewsData  Updated the setrace language code, and updated showrace to display 
+            the default language of a race.~
+End
+
+#News
+TimeStamp 1035839251
+NewsData  Removed excess wear positions from the code.~
+End
+
+#News
+TimeStamp 1035840032
+NewsData  Updated the race files.~
+End
+
+#News
+TimeStamp 1035843276
+NewsData  Fixed a bad log call in the db.c file.~
+End
+
+#News
+TimeStamp 1035844169
+NewsData  Added the morph commands. All level 105, right now. Needs work.~
+End
+
+#News
+TimeStamp 1035844181
+NewsData  Added the skill command. Level 10, right now. Needs work.~
+End
+
+#News
+TimeStamp 1035844454
+NewsData  Fixed a pager color bug.~
+End
+
+#News
+TimeStamp 1035844813
+NewsData  Fixed a bug in caught_alarm.~
+End
+
+#News
+TimeStamp 1035845491
+NewsData  Fixed bad code in do_commands function.~
+End
+
+#News
+TimeStamp 1035846555
+NewsData  Updated the do_slist function.~
+End
+
+#News
+TimeStamp 1035846789
+NewsData  Fixed a bad wear position being called in the tables.c file.~
+End
+
+#News
+TimeStamp 1035847656
+NewsData  Removed the max_sn variable, and added the getobjnotake field to 
+            the sysdata.~
+End
+
+#News
+TimeStamp 1035847669
+NewsData  Added the cset get_objnotake field, so that the value can be set 
+            online.~
+End
+
+#News
+TimeStamp 1035848636
+NewsData  Added the extradimensional portal object, and the solomonic 
+            invocation object. They are vnums 63 and 65 respectively.~
+End
+
+#News
+TimeStamp 1035848647
+NewsData  Fixed magic missile.~
+End
+
+#News
+TimeStamp 1035848840
+NewsData  Added a help entry for the 'for' command.~
+End
+
+#News
+TimeStamp 1035849340
+NewsData  Added a help entry for the 'boards' command.~
+End
+
+#News
+TimeStamp 1035851292
+NewsData  Updated the ignoring of socials stuff.~
+End
+
+#News
+TimeStamp 1035852208
+NewsData  Fixed zap prog problem in groups.~
+End
+
+#News
+TimeStamp 1035860582
+NewsData  Updated the calls to the maximum vnum to use MAX_VNUM instead.~
+End
+
+#News
+TimeStamp 1035860597
+NewsData  Fixed some bad calls to the maximum short int size.~
+End
+
+#News
+TimeStamp 1035861146
+NewsData  Set recall to deadly vnum to use ROOM_VNUM_DEADLY instead of 
+            making straight calls to vnum 3009.~
+End
+
+#News
+TimeStamp 1035862204
+NewsData  Updated the do_recall and supp recall code to send immortals to 
+            room 1200.~
+End
+
+#News
+TimeStamp 1035862218
+NewsData  Updated the supp recall code to include racial recall checks.~
+End
+
+#News
+TimeStamp 1035865775
+NewsData  Added goto options 'prev' and 'next' to make building, and 
+            movement in general, easier.~
+End
+
+#News
+TimeStamp 1035871498
+NewsData  Fixed magical containers to work properly.~
+End
+
+#News
+TimeStamp 1035873562
+NewsData  Room default name changed to white.~
+End
+
+#News
+TimeStamp 1035874295
+NewsData  Added code to stop the ignoring of files.~
+End
+
+#News
+TimeStamp 1035874845
+NewsData  Added code to stop ignore from telling who is trying to talk to 
+            you, if you can't see them.~
+End
+
+#News
+TimeStamp 1035879984
+NewsData  Updated bad calls in the bank code, and added the bank commands.~
+End
+
+#News
+TimeStamp 1035885526
+NewsData  Removed the magic_flags variable from the object structure, and 
+            moved the ITEM_PKDISARMED flag to the extra_flags variable, and 
+            never saves the flag but leaves it on the object. It's a hackish 
+            fix, but it works.~
+End
+
+#News
+TimeStamp 1035912369
+NewsData  cleaned up help.are by removing some more bad entries, and 
+            updating all the levels.~
+End
+
+#News
+TimeStamp 1035925527
+NewsData  Removed a stray re_comp call.~
+End
+
+#News
+TimeStamp 1036031109
+NewsData  Adjusted area flags to add nopkill (meaning do not allow pkilling 
+            in the area) and antipkill (do not allow *pkillers* in the area).~
+End
+
+#News
+TimeStamp 1036047547
+NewsData  Added the detect_sneak affect, and created the detect sneak skill.~
+End
+
+#News
+TimeStamp 1036057359
+NewsData  Cleaned up the move_char code immensely. It's still not great, 
+            though.~
+End
+
+#News
+TimeStamp 1036077216
+NewsData  Removed the unfoldarea command and all associated materials from 
+            the MUD.~
+End
+
+#News
+TimeStamp 1036209290
+NewsData  Fixed the midas touch spell... allowed for some nasty cheating.~
+End
+
+#News
+TimeStamp 1036211400
+NewsData  Fixed the destroy bug that allowed the destroying of files.~
+End
+
+#News
+TimeStamp 1036220853
+NewsData  Fixed the bestow command.~
+End
+
+#News
+TimeStamp 1036220855
+NewsData  Updated the version information to reflect the first public 
+            release of the Chronicles codebase. Whee!~
+End
+
+#News
+TimeStamp 1036697525
+NewsData  Moved all the files information into its own .h file.~
+End
+
+#News
+TimeStamp 1036697537
+NewsData  Moved the ban data into its own .h file.~
+End
+
+#News
+TimeStamp 1036697546
+NewsData  Fixed a social bug.~
+End
+
+#News
+TimeStamp 1037013013
+NewsData  Moved the news code structures into the news.h file.~
+End
+
+#News
+TimeStamp 1037020668
+NewsData  Added the ability to turn on and off the HTML news generation, 
+            online.~
+End
+
+#News
+TimeStamp 1037196708
+NewsData  Removed the stat_obj.c file from the code, no longer needed.~
+End
+
+#News
+TimeStamp 1037351982
+NewsData  Removed the load_*progs functions, as they were all useless or 
+            orphaned code.~
+End
+
+#News
+TimeStamp 1037378912
+NewsData  Did some updating to the gods.are file... mainly description work.~
+End
+
+#News
+TimeStamp 1037707963
+NewsData  Updated the makefile to call '$(MAKE)' instead of a bare 'make.'~
+End
+
+#News
+TimeStamp 1037746344
+NewsData  Converted body parts to extended bitvectors.~
+End
+
+#News
+TimeStamp 1037746385
+NewsData  Removed a number of useless mobiles from New Darkhaven.~
+End
+
+#News
+TimeStamp 1037824393
+NewsData  Converted cset save flags to extended bits.~
+End
+
+#News
+TimeStamp 1037975631
+NewsData  Changed the act flags into an enumerated list.~
+End
+
+#News
+TimeStamp 1038304362
+NewsData  Removed a duplicated call in do_destroy.~
+End
+
+#News
+TimeStamp 1038407152
+NewsData  Fixed a bug in ban.c that doesn't save updated bans properly.~
+End
+
+#News
+TimeStamp 1038976951
+NewsData  Updated some of the enums in the mud.h file.~
+End
+
+#News
+TimeStamp 1039507559
+NewsData  Fixed a memory leak in the I3 code.~
+End
+
+#News
+TimeStamp 1039545196
+NewsData  Removed the unnecessary definition of MAX_ITEM_TYPE, and placed it 
+            into the enum.~
+End
+
+#News
+TimeStamp 1039546307
+NewsData  Changed the teleport flags to extended bits, and cleaned up the 
+            code a little.~
+End
+
+#News
+TimeStamp 1039957285
+NewsData  Converted skill/spell flags to extended bitvectors, and removed 
+            some useless code.~
+End
+
+#News
+TimeStamp 1040051391
+NewsData  Fixed a bug in the bare handed damage calculation.~
+End
+
+#News
+TimeStamp 1040051411
+NewsData  Fixed a bug in the damdie fields of mset and mstat.~
+End
+
+#News
+TimeStamp 1040052130
+NewsData  Added security to the order command to stop it from possibly 
+            processing an mp command through the use of order.~
+End
+
+#News
+TimeStamp 1040055611
+NewsData  Updated the code to be Linux (or at least RedHat) compliant.~
+End
+
+#News
+TimeStamp 1040055851
+NewsData  Updated the version information to reflect the Chronicles 1.05a 
+            release.~
+End
+
+#News
+TimeStamp 1040160646
+NewsData  Changed the way groups (clans/guilds/orders) are handled.~
+End
+
+#News
+TimeStamp 1040161383
+NewsData  Added a resign command to allow people to leave groups at their 
+            own leisure.~
+End
+
+#News
+TimeStamp 1040161416
+NewsData  Updated induct and outcast to remove some stupid level 
+            restrictions.~
+End
+
+#News
+TimeStamp 1040161497
+NewsData  Updated outcast to stop people from outcasting superiors.~
+End
+
+#News
+TimeStamp 1040164398
+NewsData  Updated the do_clans, do_orders, and do_guilds commands to show 
+            biases.~
+End
+
+#News
+TimeStamp 1040164420
+NewsData  Updated the do_setclan command to allow the setting of group 
+            flags.~
+End
+
+#News
+TimeStamp 1040259935
+NewsData  Fixed some problems in do_mset, do_oset, and do_redit with the 
+            'on' subfunction.~
+End
+
+#News
+TimeStamp 1040289468
+NewsData  Fixed a bug in can_see, which allowed some things to remain hidden 
+            from the Supermob.~
+End
+
+#News
+TimeStamp 1040289795
+NewsData  Update show_char_to_char to stop mortals from seeing the supermob.~
+End
+
+#News
+TimeStamp 1040292113
+NewsData  Fixed a bug in fread_mobile, which could result in a crash.~
+End
+
+#News
+TimeStamp 1040296949
+NewsData  Did some updating to one_hit and multi_hit to make weapon spells 
+            and shields work properly.~
+End
+
+#News
+TimeStamp 1040305021
+NewsData  Fixed a bug in do_mset that allows the name field to be an empty 
+            string, and the name of PCs to be changed.~
+End
+
+#News
+TimeStamp 1040401789
+NewsData  fixed a few bugs relating to the body parts code.~
+End
+
+#News
+TimeStamp 1040424313
+NewsData  Updated the limbo.are file to use the one from Nivek's site.~
+End
+
+#News
+TimeStamp 1040501885
+NewsData  Updated startup script to exit if something is already running on 
+            port set in startup script.~
+End
+
+#News
+TimeStamp 1040524603
+NewsData  Added the morph command, and change morph levels to 103.~
+End
+
+#News
+TimeStamp 1040607646
+NewsData  Fixed a bug in the experience code.~
+End
+
+#News
+TimeStamp 1040632047
+NewsData  Adding a crash logging system to the startup script. See 
+            'crash_log.txt' in the doc directory for more information.~
+End
+
+#News
+TimeStamp 1040634153
+NewsData  Fixed a bug in the polymorph code.~
+End
+
+#News
+TimeStamp 1040639543
+NewsData  Fixed a very minor bug in do_score.~
+End
+
+#News
+TimeStamp 1040980737
+NewsData  Removed the stock guilds, and replaced them with combo guilds 
+            based around a general grouping type.~
+End
+
+#News
+TimeStamp 1040980760
+NewsData  Added new guild halls and prepped them for use.~
+End
+
+#News
+TimeStamp 1040980788
+NewsData  Updated the command structure and tables to remove one of the 
+            useless tables.~
+End
+
+#News
+TimeStamp 1041191838
+NewsData  Fixed a bug in acid_breath dealing with the ac on armor.~
+End
+
+#News
+TimeStamp 1041394532
+NewsData  Removed the use of bugs.txt for the logging of bug logs (they're 
+            stored in your log files already), and renamed the pbugs.txt file 
+            to bugs.txt.~
+End
+
+#News
+TimeStamp 1041395502
+NewsData  Removed the logging of area resets, as it was a waste of space.~
+End
+
+#News
+TimeStamp 1041489617
+NewsData  The can_see function has been updated to allow menu who to work 
+            and not bug out.~
+End
+
+#News
+TimeStamp 1041552267
+NewsData  Updated the code to support a CygWin compile.~
+End
+
+#News
+TimeStamp 1042032113
+NewsData  Removed the old guild halls from New Darkhaven, to free up the 
+            wasted VNums.~
+End
+
+#News
+TimeStamp 1042264060
+NewsData  Adjusted debug options to save space.~
+End
+
+#News
+TimeStamp 1042264360
+NewsData  Dropped back to one Makefile for distribution (more than one was 
+            really quite pointless).~
+End
+
+#News
+TimeStamp 1042351071
+NewsData  Updated the 'quest' help file to provide information on using the 
+            questmaster.~
+End
+
+#News
+TimeStamp 1042353008
+NewsData  Updated the quest code a little.~
+End
+
+#News
+TimeStamp 1042372848
+NewsData  Created a str_replace function to do string replacement.~
+End
+
+#News
+TimeStamp 1042388969
+NewsData  Added in the area name and desc format options (goto 20000, then 
+            astat to see in use).~
+End
+
+#News
+TimeStamp 1042390602
+NewsData  Renamed setclan to setfaction.~
+End
+
+#News
+TimeStamp 1042507976
+NewsData  Fixed a the bitvector problem with the attacks and defenses code.~
+End
+
+#News
+TimeStamp 1042782758
+NewsData  Added a new cedit flag called wholename. It requires the full 
+            command name be typed.~
+End
+
+#News
+TimeStamp 1042786736
+NewsData  Removed declarations for ech, makeadminlist, makeguild, and pose 
+            from the mud.h file.~
+End
+
+#News
+TimeStamp 1042786744
+NewsData  Removed the do_rolldie function.~
+End
+
+#News
+TimeStamp 1042787414
+NewsData  Flagged copyover, destroy, echo, hlist, idea, murder, quit, 
+            reboot, shutdown, slay with the wholename flag, and removed the 
+            functions that wholename replaced.~
+End
+
+#News
+TimeStamp 1042789228
+NewsData  Adjusted save_commands so that it would print code as NULL if the 
+            command function did not exist.~
+End
+
+#News
+TimeStamp 1042789642
+NewsData  Renamed showclan to showfaction.~
+End
+
+#News
+TimeStamp 1042789652
+NewsData  Removed a few useless helpfiles.~
+End
+
+#News
+TimeStamp 1042816111
+NewsData  Doubled the max buffer size, to halt some of the pager overflow 
+            errors.~
+End
+
+#News
+TimeStamp 1042897888
+NewsData  Made some changes to New Darkhaven.~
+End
+
+#News
+TimeStamp 1042904586
+NewsData  Removed more useless definitions from the mud.h file.~
+End
+
+#News
+TimeStamp 1042904623
+NewsData  Moved the clan information from mud.h to the clans.h file.~
+End
+
+#News
+TimeStamp 1042907216
+NewsData  Moved a few of the missed ban functions to the ban.h file.~
+End
+
+#News
+TimeStamp 1042928409
+NewsData  Renamed makeclan to makefaction.~
+End
+
+#News
+TimeStamp 1042930904
+NewsData  Moved the BAN_LIST definition to the ban.h file.~
+End
+
+#News
+TimeStamp 1043002793
+NewsData  Added the ability to adjust starting HP, Mana, and Move via the 
+            cset panel.~
+End
+
+#News
+TimeStamp 1043010713
+NewsData  Moved all the quest definitions to the quest.h file, to drop off 
+            the wasted space.~
+End
+
+#News
+TimeStamp 1043043098
+NewsData  Removed the RIP support code, as RIP is pretty much not supported 
+            anymore.~
+End
+
+#News
+TimeStamp 1043050234
+NewsData  Moved all the council information from the mud.h file to the 
+            councils.h file, to save on wasted space.~
+End
+
+#News
+TimeStamp 1043073617
+NewsData  Changed the track code to use a real room flag.~
+End
+
+#News
+TimeStamp 1043184784
+NewsData  Modified the Makefile to chmod 700 all of the .o files.~
+End
+
+#News
+TimeStamp 1043185555
+NewsData  Removed a 'function location' bug call from do_owhere.~
+End
+
+#News
+TimeStamp 1043187990
+NewsData  Moved the deity definitions to the deity.h file to make changes 
+            easier, and to save on the wasted space.~
+End
+
+#News
+TimeStamp 1043218904
+NewsData  Moved the polymorph definitions to polymorph.h, which resulted in 
+            a massive binary size decrease.~
+End
+
+#News
+TimeStamp 1043234860
+NewsData  Modified how copyover_recover was called to be compliant with the 
+            next version of I3.~
+End
+
+#News
+TimeStamp 1043253815
+NewsData  Moved the auction information to the auction.h file.~
+End
+
+#News
+TimeStamp 1043253830
+NewsData  Removed the bet.h file.~
+End
+
+#News
+TimeStamp 1043326285
+NewsData  Moved the language definitions from the mud.h file to the 
+            language.h file.~
+End
+
+#News
+TimeStamp 1043353975
+NewsData  Removed the min_level field from the skill and spell data.~
+End
+
+#News
+TimeStamp 1043368231
+NewsData  Updated I3 to the latest version.~
+End
+
+#News
+TimeStamp 1043593432
+NewsData  Added a help listing for the cset saveflags.~
+End
+
+#News
+TimeStamp 1043594492
+NewsData  Adjusted the cset 'help' option to be a bit more useful. Type cset 
+            help, and cset help saveflags for examples.~
+End
+
+#News
+TimeStamp 1043611549
+NewsData  Added a VNUM definition to mud.h to make changing VNUMs easier. 
+            Have not updated any calls to use it.~
+End
+
+#News
+TimeStamp 1043648026
+NewsData  Updated copyright notices to include 2003.~
+End
+
+#News
+TimeStamp 1043687967
+NewsData  Moved the i3 defines out of the mud.h file, as it was taking up a 
+            lot of space.~
+End
+
+#News
+TimeStamp 1043815373
+NewsData  Provided mottos for all the guilds, though they're just jokes. ;)~
+End
+
+#News
+TimeStamp 1044033056
+NewsData  Renamed clans.h and clans.c to factions.h and factions.c 
+            respectively.~
+End
+
+#News
+TimeStamp 1044087946
+NewsData  Modified all of the clan code to be called factions, and in the 
+            process cleaned a lot of it up.~
+End
+
+#News
+TimeStamp 1044346018
+NewsData  Fixed a bug in the exp code so that it properly mimics SMAUG's 
+            needed exp.~
+End
+
+#News
+TimeStamp 1044359379
+NewsData  Fixed a bug in gain_exp dealing with deadlies.~
+End
+
+#News
+TimeStamp 1044600186
+NewsData  Change the hitpoint generation into a function to make the figures 
+            universal.~
+End
+
+#News
+TimeStamp 1044696873
+NewsData  Removed the guild/skell associations from factions and skells 
+            (skills/spells).~
+End
+
+#News
+TimeStamp 1045842950
+NewsData  Finished up the Mercenary Guild Hall.~
+End
+
+#News
+TimeStamp 1045843959
+NewsData  Set up boards for all the guild halls.~
+End
+
+#News
+TimeStamp 1045848482
+NewsData  Fixed write_to_descriptor to correct a very bad flaw.~
+End
+
+#News
+TimeStamp 1046111179
+NewsData  Updated the version information to reflect the Chronicles 1.2 
+            release.~
+End
+
+#News
+TimeStamp 1046155354
+NewsData  Fixed a bug in the news code that stopped the 'remove all' 
+            subfunction from working properly.~
+End
+
+#News
+TimeStamp 1047488829
+NewsData  Updated extended bits to only use two integers instead of four. 
+            This lowers the max bits to 64 (but it decreases the exe size, and 
+            helps, a small bit, with memory). If more are needed modify the 
+            XBI value by 1, for every 32 bits.~
+End
+
+#News
+TimeStamp 1047490978
+NewsData  Added the smaug/thoric helpfile to make Chronicles license 
+            compliant... still not sure what happened to it.~
+End
+
+#News
+TimeStamp 1047491792
+NewsData  Added the credits file, to make license compliance again... 
+            apparently it was mistakenly moved, in the last helpfile cleanup.~
+End
+
+#News
+TimeStamp 1047491994
+NewsData  Updated the version information to reflect the Chronicles 1.2a 
+            release.~
+End
+
+#End

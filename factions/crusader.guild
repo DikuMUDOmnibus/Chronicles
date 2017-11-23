@@ -1,0 +1,37 @@
+#FACTION
+Name         Guild of Crusaders~
+Filename     crusader.guild~
+Motto        "The hands of the Gods given form, we shall not sway from our path."~
+Description  ~
+Deity        ~
+Leader       ~
+NumberOne    ~
+NumberTwo    ~
+Badge        Crusader~
+Leadrank     Divine~
+Onerank      Holy~
+Tworank      Pious~
+PKillRangeNew   0 0 0 0 0 0 0
+PDeathRangeNew  0 0 0 0 0 0 0
+MKills       0
+MDeaths      0
+IllegalPK    0
+Score        0
+Type         2
+Flags        511
+Favour       0
+Strikes      0
+Members      0
+MemLimit     0
+Alignment    0
+Board        20107
+ObjOne   0
+ObjTwo   0
+ObjThree 0
+ObjFour  0
+ObjFive  0
+Recall       20111
+Storeroom    20101
+End
+
+#END

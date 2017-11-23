@@ -1,0 +1,500 @@
+#AREA        The Hall of Illumination~
+
+
+
+#VERSION     1
+#AUTHOR      Orion~
+#DERIVATIVES ~
+
+#RANGES
+10 100 0 105
+$
+
+#NAMEFORMAT &r&G&c[ &G&CGuild of Crusaders&G&c, &G&W<%room_name%> &G&c]~
+
+#DESCFORMAT &r&Y&c~
+
+#RESETMSG &r&G&Y&CA powder blue light floods the area, as the God of Good smiles upon the work done here.~
+
+#FLAGS
+48
+
+#ECONOMY 0 31250000
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#20100
+shop keeper woman eysa~
+Eysa~
+A woman is here blessing artifacts with her dinity, as well as her beauty.
+~
+~
+67108867 4194472 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 20 13 25 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#20199
+guild father teacher aged man~
+The Guild Father~
+An aged man stands here, awaiting another pupil.
+~
+~
+67109891 4194472 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#0
+
+
+#OBJECTS
+#20100
+obsidian fountain~
+The Crusaders Guild Chaos Fountain~
+An obsidian fountain spews forth crystal clear waters.~
+~
+25 -2147483648 0
+0 0 0 0
+1 0 0
+#20101
+ivory fountain~
+The Crusaders Guild Order Fountain~
+An ivory fountain spews forth crystal clear waters.~
+~
+25 -2147483648 0
+0 0 0 0
+1 0 0
+#20102
+podium communion ornate oak gold~
+the Communion Podium~
+An ornate podium, made of the finest oak and trimmed in gold, sits here.~
+~
+12 -2147483648 0
+0 0 32 1
+1 0 0
+#20103
+white ivory~
+one of the white ivory seats~
+Seats crafted of the purest white ivory stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20104
+grey stone~
+one of the grey stone seats~
+Seats formed from solid, grey stone stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20105
+black obsidian~
+one of the black obsidian seats~
+Seats carved from the blackest obsidian stand here.~
+~
+12 -2147483648 0
+0 0 1170 0
+1 0 0
+#20106
+ring crusaders silver~
+A Ring of the Crusaders~
+A silver ring glows brilliantly here, awaiting its owner.~
+~
+15 524544 3
+750 0 0 15
+1 12000 1200
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Crusaders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Crusaders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20107
+pendant runic silver light~
+A Runic Pendant of Light~
+A silver pendant, in the shape of the rune of light lies here.~
+~
+9 524545 5
+7 7 0 0
+1 20000 2000
+A
+13 10
+A
+12 15
+A
+18 2
+A
+19 2
+A
+4 3
+A
+14 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Crusaders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Crusaders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20108
+lantern crusaders gold~
+A Gold Lantern~
+A lantern of the Guild of Crusaders lies here.~
+~
+1 524544&65536 1
+10 10 -1 0
+1 16125 1612
+A
+13 10
+A
+12 25
+A
+18 5
+A
+19 5
+> get_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Crusaders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpat $n mpforce $n drop $o
+endif
+~
+> wear_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Crusaders
+else
+  mpecho The Gods' Avatar Booms: How DARE you, $n?!?!
+  mpechoat $n **BOOM** You have been struck down!
+  mpechoaround $n **BOOM** $n has been struck down!
+  mpdamage $n 100
+  mpat $n mpforce $n remove $o
+endif
+~
+|
+#20199
+podium quartz tome communication~
+The Tome of Divinity~
+A podium forged from solid quartz sits here, a tome lying upon it.~
+~
+12 -2147483648 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#20100
+Hall of Light~
+Paintings and tapestries decorate the walls, depicting the God of Good and
+their deities. A large oval carpet covers a floor composed of white marble.
+An ivory fountain spews forth crystal waters, filling the air with the gust
+of trinking waters. The hall extends to the north, east, and south, while a
+stairway leads to the meeting hall.
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20101
+D1
+~
+~
+0 -1 21168
+D2
+~
+~
+0 -1 20103
+D3
+~
+~
+0 -1 20102
+D4
+~
+~
+0 -1 20104
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Crusaders
+else
+mptransfer $n 21168
+endif
+~
+|
+S
+#20101
+Chamber of Charity~
+The floor of the chamber is littered with religious artifacts, while
+thousands of vials of holy water, and blessed potions, line the multitude
+of shelves on the wall. Each shelf is formed of solid oak, each shelf
+engraved with a different religious rune. A corridor leads to the south. 
+~
+0 37225484 0
+D2
+~
+~
+0 -1 20100
+S
+#20102
+The Altar of Light~
+The Altar to Order glows with an aura of brilliance, light reflecting off
+of the platinum surface. Runes of peace and order are engraved into the
+platinum surface. A plush white carpet leads to and from the Altar. A
+corridor leads to the east. 
+~
+0 36701196 0
+D1
+~
+~
+0 -1 20100
+S
+#20103
+Holy Necessities~
+The shop of the crusaders is not very large. A long wooden counter fills
+much of the room. Shelves fixed to the eastern and western walls are
+covered in various artifacts, mostly potions and scrolls. A plush carpet
+carpet path leads to the north from the counter to the corridor. The
+corridor leads to the north. 
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20100
+S
+#20104
+Meeting of Light~
+An enormous hall, ivory in color, forms the Meeting of Light. Seats fill the
+hall, encircling a brilliant silver podium which sits at the center of the
+hall, each crafted of shining white ivory. A corridor leads east, while a
+stairway descends to the main hall. 
+~
+0 36701196 0
+D1
+~
+~
+0 -1 20105
+D5
+~
+~
+0 -1 20100
+S
+#20105
+Meeting of Balance~
+An enormous hall, plain in color, forms the Meeting of Balance. Seats fill
+the hall, encircling a slate podium within the center of the hall, each
+made of plain grey stone. Corridors lead in three directions: north, east,
+and west.  
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20111
+D1
+~
+~
+0 -1 20106
+D3
+~
+~
+0 -1 20104
+S
+#20106
+Meeting of Shadows~
+An enormous hall, black in color, forms the Meeting of Shadows. Seats fill
+the hall, encircling a dark onyx podium which sits at the center of the hall,
+each made of  the darkest obsidian. A corridor leads west, while a stairway
+descends to the main hall. 
+~
+0 36701196 0
+D3
+~
+~
+0 -1 20105
+D5
+~
+~
+0 -1 20110
+S
+#20107
+Chamber of Scriptures~
+A podium lies within the center of the room, formed of solid quartz, the
+podium was a natural formation chiseled into a podium. Atop the podium lies
+a tome, the cover of which is inscribed with the rune of communication. A
+corridor leads to the north.  
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20110
+S
+#20108
+The Altar of Shadows~
+The Altar to Chaos glows with a black aura. The Altar is fashioned from
+dark obsidian, while runes of destruction, creation, and time are engraved
+upon it. A charcoal grey carpet leads to and from the Altar. A corridor
+leads to the west.
+~
+0 36701196 0
+D3
+~
+~
+0 -1 20110
+S
+#20109
+Chamber of Prayer~
+The circular chamber is filled with the flickering of candlelight. A circle
+of black and white candles encompass the center of the chamber. The wall of
+the chamber is encircled with a mural depicting the whole of creation. A
+corridor leads to the south. 
+~
+0 36701196 0
+D2
+~
+~
+0 -1 20110
+S
+#20110
+Hall of Shadows~
+Paintings and tapestries decorate the walls, depicting the God of Good and
+their deities. A large oval carpet covers a floor composed of black marble.
+An obsidian fountain spews forth crystal waters, filling the air with the
+gust of trinking waters. The hall extends to the north, east, and south,
+while a stairway leads to the meeting hall.
+~
+0 36701196 0
+D0
+~
+~
+0 -1 20109
+D1
+~
+~
+0 -1 20108
+D2
+~
+~
+0 -1 20107
+D3
+~
+~
+0 -1 21168
+D4
+~
+~
+0 -1 20106
+> entry_prog 100~
+if isimmort($n)
+or isnpc($n)
+or guild($n) == Guild of Crusaders
+else
+mptransfer $n 21168
+endif
+~
+|
+S
+#20111
+Hall of Communion~
+The Hall of Communion is an enormous hall. Seats formed from white ivory,
+grey stone, or black obsidian have been situated around a single podium
+which lies in the center of the hall. A large glass dome allows a wide
+view of the sky from the hall. A corridor leads to the south. 
+~
+0 36701196 0
+D2
+~
+~
+0 -1 20105
+S
+#20199
+Floating in a void~
+~
+0 4 1
+S
+#0
+
+
+#RESETS
+O 1 20101 1 20100
+O 1 20103 1 20104
+O 1 20104 1 20105
+O 1 20105 1 20106
+O 1 20199 1 20107
+M 1 20199 1 20109
+O 1 20100 1 20110
+O 1 20102 1 20111
+O 1 20103 1 20111
+O 1 20104 1 20111
+O 1 20105 1 20111
+M 1 20100 1 20103
+G 1 20108 1
+G 1 20107 1
+G 1 20106 1
+S
+
+
+#SHOPS
+ 20100    0  0  0  0  0   120  90         0 23    ; Eysa
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#$

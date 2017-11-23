@@ -1,0 +1,37 @@
+#FACTION
+Name         Guild of Magi~
+Filename     magi.guild~
+Motto        "Wisdom and intelligence guide us, do what thou will."~
+Description  ~
+Deity        ~
+Leader       ~
+NumberOne    ~
+NumberTwo    ~
+Badge        Magi~
+Leadrank     ~
+Onerank      ~
+Tworank      ~
+PKillRangeNew   0 0 0 0 0 0 0
+PDeathRangeNew  0 0 0 0 0 0 0
+MKills       0
+MDeaths      0
+IllegalPK    0
+Score        0
+Type         2
+Flags        511
+Favour       0
+Strikes      0
+Members      0
+MemLimit     0
+Alignment    0
+Board        20005
+ObjOne   0
+ObjTwo   0
+ObjThree 0
+ObjFour  0
+ObjFive  0
+Recall       20001
+Storeroom    20004
+End
+
+#END
